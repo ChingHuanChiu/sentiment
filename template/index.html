@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" dir="ltr">
+        <center>
+          <head>
+           <meta charset="utf-8">
+
+           <title>Malicious Detection</title>
+          </head>
+
+          <body>
+            <form method="POST">
+                  Input: <input type='text' name='content'/>
+
+                    <input type="submit">
+            </form>
+
+            <p>Result: {{ result }}</p>
+
+             {%if result.predictions == "惡意" %}
+               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5CMPmuGxUET4NnlAGz6D1aPHqVQvEv0wz3aZqA7rfwjszSYUHnpV7mUei1PNJkkFL0II&usqp=CAU">
+             {%elif result.predictions == "正常"%}
+               <img src="http://pic.90sjimg.com/design/00/74/77/27/5f6175e5bb3e0.png!/fw/325/quality/90/unsharp/true/compress/true/canvas/325x322a0a0/cvscolor/FFFFFFFF">
+             {%endif%}
+
+
+          </body>
+        </center>
+</html>

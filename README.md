@@ -33,3 +33,12 @@ https://arxiv.org/pdf/1904.12848.pdf 這篇論文進行 Loss function 的改寫�
        F1 Score(neg) : 0.87
        
        ![image](https://github.com/ChingHuanChiu/sensitive/blob/master/img/roberta_with_back_translate.png)
+
+# API
+  ![image](https://github.com/ChingHuanChiu/sensitive/blob/master/img/bad.png)
+
+
+  ![image](https://github.com/ChingHuanChiu/sensitive/blob/master/img/normal.png)
+
+
+
