@@ -1,4 +1,4 @@
-# Sensitive classification 
+# Sentiment classification 
   目標為比較加入半監督式學習的方法是否能讓模型預測力提升
 
 # Overview
